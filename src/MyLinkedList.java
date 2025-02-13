@@ -173,6 +173,10 @@ public class MyLinkedList<E>{
         }
     }
 
+    void helloWorld(){
+        System.out.println("Hello Wordl!");
+    }
+
     //Внутренний класс Node - где Node это один из элементов массива
     private static class Node<E>{
         E item;
